@@ -1,4 +1,4 @@
-# Cisco-Networking-Academy-Ethical-Hacker****
+# Cisco-Networking-Academy-Ethical-Hacker
 
 # Penetration Testing Curriculum
 
